@@ -45,11 +45,29 @@ p {
 
 /*Animation Css*/
 .img-main {
-  animation-name: animo;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
+  -webkit-animation-name: animo;
+          animation-name: animo;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes animo {
+  0% {
+    transform: scale(0.5);
+    border-radius: 100%;
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
 }
 
 @keyframes animo {
@@ -70,10 +88,14 @@ p {
   font-size: 40px;
   text-align: center;
   color: black;
-  animation-name: backInLeft;
-  animation-duration: 5s;
-  animation-delay: 3s;
-  animation-timing-function: ease-out;
+  -webkit-animation-name: backInLeft;
+          animation-name: backInLeft;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 .redessociales {
@@ -81,10 +103,14 @@ p {
   font-size: 30px;
   text-align: center;
   color: black;
-  animation-name: backInLeft;
-  animation-duration: 5s;
-  animation-delay: 3s;
-  animation-timing-function: ease-out;
+  -webkit-animation-name: backInLeft;
+          animation-name: backInLeft;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 /*Videos*/
@@ -368,6 +394,4 @@ video {
     padding: 1rem;
     text-align: left;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
