@@ -1,3 +1,15 @@
+//variables
+$background: green;
+$relleno:20px;
+
+body{
+    background-color: 
+    $background;
+    padding: $relleno
+}
+
+
+
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 /*Font Descargada*/

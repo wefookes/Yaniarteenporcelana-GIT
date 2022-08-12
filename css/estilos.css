@@ -421,3 +421,9 @@ video {
 /*operadores matematicas*/
 
 /*# sourceMappingURL=estilos.css.map */
+
+.img-main {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-evenly;
+  }
